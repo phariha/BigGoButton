@@ -12,8 +12,6 @@ class MainActivity : AppCompatActivity() {
 
         var count = 0
 
-        setContentView(R.layout.activity_main)
-
         btnGo = this.findViewById<Button>(R.id.btnGo)
         btnGo.setOnClickListener { it ->
             count++
